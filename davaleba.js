@@ -46,6 +46,6 @@ console. log (phone)
 
 
 let phone1= ["iphone","samsung","pixel","huawei","xiaomi"]
-console. log (phones[0])
+console. log (phone[0])
 console. log (phones1[4])
  
