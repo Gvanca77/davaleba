@@ -1,51 +1,19 @@
-let a=87;b=65
-console.log (a+b)
+//Დაბეჭდეთ რიცხვები 2 დან 8 მდე 
+for ( let i =2; i<9; i++)   
+    {console.log (i)}
+
+//5 დან 35 - ის ჩათვლით დაბეჭდეთ ყოველი მეოთხე რიცხვი 
+for (let i=5; i <=35; i +=4)
+    console.log (i);
 
 
 
+// Გამოაცხადეთ ობიექტი person რომელსაც აქვს firstName, lastName, age და დაბეჭდეთ person-სრული სახელი ( სახელი და გვარი)
+     const person = {
+       firstName:'gvanca',
+       LastName :'abramishvili',
+       Age : 32
+}; 
 
-let student = {
-    FirstName: "gvanca",
-    LastName: "abramishvili",
-    age:32,
-    Email:"abramishvili.gvanca77@gmail.com",
-    marks:10.9    
-}
-console. log(student.FirstName)
+ console. log (person)
 
-
-let m=45,n=23
-
-
- if (m>n){
-    console.log(m+n)
-}
-else{
-    console.log(n)
-}
-
-
-
-
-let studentName=('gvanca')
-console. log("rise and shine,gvanca")
-
-
-let salery=2000,bonus
-if (salery>=2000) bonus=0
-else if (salery<2000) bonus=salery*0.1
-console. log(bonus)
-
-
-let A=23 , B=A/2 ,C=(A+B)
-console. log (C)
-
-
-let phone= ["iphone","samsung","pixel","huawei","xiaomi"]
-console. log (phone)
-
-
-let phone1= ["iphone","samsung","pixel","huawei","xiaomi"]
-console. log (phone[0])
-console. log (phones1[4])
- 
