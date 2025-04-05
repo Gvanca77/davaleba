@@ -1,0 +1,22 @@
+{
+  "name": "davaleba",
+  "version": "1.0.0",
+  "main": "davaleba.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gvanca77/davaleba.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gvanca77/davaleba/issues"
+  },
+  "homepage": "https://github.com/Gvanca77/davaleba#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.2.1"
+  }
+}
