@@ -22,4 +22,17 @@
 //
 //
 // -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+// Cypress.Commands.overwrite('visit', (originalFn, url, options)
+// 
+//  => { ... })
+
+Cypress.Commands.add('registeruser', (username, password) => { 
+
+    cy.visit('https://www.automationexercise.com/');
+    //Click on 'Signup / Login' button
+    cy.get('#customer_menu_top > li > a').click();
+    cy.get('#loginFrm_loginname').type('Gvanca1');
+    cy.get('#loginFrm_password').type('Gvanca123');
+    cy.get('#loginFrm > fieldset > .btn').click();
+})
+    
